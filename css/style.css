@@ -1,0 +1,114 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/white-waves.png);
+}
+
+nav{
+  height: 72px;
+  background: #272727;
+}
+
+.navRoot{
+  position: relative;
+  height: 72px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.title{
+  position: absolute;
+  top: 26px;
+  left: 0;
+  background: url(../images/title.svg);
+  width: 230px;
+  height: 24px;
+}
+
+.logo{
+  position: absolute;
+  top: 22px;
+  right: 0;
+  background: url(../images/github.svg);
+  width: 28px;
+  height: 28px;
+  transition:all 0.2s;
+  opacity:1;
+}
+
+.logo:hover{
+  opacity: 0.6;
+}
+
+.upload-image {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.dg .property-name{
+  transform: scale(0.9);
+  -webkit-transform-origin-x: left;
+}
+
+.dg .a{
+  opacity:0.85;
+}
+
+
+.m_canvas{
+  width: 1100px;
+  height: 720px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%,calc(-50% + 36px),0);
+  border-radius: 8px;
+  -webkit-box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3);
+  box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3);
+}
+
+.btn {
+  background: #2ecc71;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility:hidden
+}
+
+.upload-image input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+}
+
+.dg.ac{
+  transform: translate3d(calc(-50vw + 550px),calc(50vh - 324px),0);
+}
