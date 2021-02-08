@@ -1,5 +1,7 @@
 # Figma_Squircles
 
+![hero](https://raw.githubusercontent.com/MartinRGB/Figma_Squircles_Approximation/master/images/hero.png)
+
 Crack Figma's Smooth Corner by Mathematical methodology.
 
 ### Live version 
