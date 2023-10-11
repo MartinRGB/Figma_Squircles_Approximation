@@ -6,7 +6,7 @@ Crack Figma's Smooth Corner by Mathematical methodology.
 
 ### Live version 
 
-[demo](http://www.martinrgb.com/Figma_Squircles_Approximation/)
+[demo](https://martinrgb.github.io/Figma_Squircles_Approximation/)
 
 ### Related Project
 
